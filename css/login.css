@@ -1,0 +1,84 @@
+/* LOGIN.CSS */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef;
+    background-image: url('login.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .LoginBox {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .LoginBox h1 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #333;
+  }
+  
+  .inputbox {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  
+  .inputbox input {
+    width: 250px;
+    padding: 10px 20px 10px 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .inputbox i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+  }
+  
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-link p {
+    text-align: center;
+  }
+  
+  .register-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  

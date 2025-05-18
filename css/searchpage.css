@@ -1,0 +1,45 @@
+body {
+    background-color: #121212; /* Dark mode background */
+    color: #ffffff; /* Light text for dark background */
+    font-family: Arial, sans-serif;
+}
+
+.search-results {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.movie {
+    display: inline-block;
+    width: 180px;
+    margin: 10px;
+    vertical-align: top;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.movie p {
+    font-size: 14px;
+    color: #b6b6b6;
+}
+
+.movie h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.movie button {
+    background-color: #e62429;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
